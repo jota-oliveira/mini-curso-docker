@@ -1,0 +1,11 @@
+{
+    "name": "minicurso",
+    "description": "Mini-curso",
+    "require": {
+        "php": ">=5.5",
+        "doctrine/doctrine-orm-module": "0.10.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "5.1.0"
+    }
+}
