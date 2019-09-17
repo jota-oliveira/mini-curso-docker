@@ -1,0 +1,15 @@
+version: "3"
+services:
+  node:
+    build: './node/'
+    volumes:
+      - ./app/:/app
+    networks:
+      - backend
+    container_name: nodejs
+
+networks:
+  backend:
+
+volumes:
+  db_data:

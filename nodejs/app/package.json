@@ -1,0 +1,15 @@
+{
+  "name": "minicurso",
+  "description": "Minicurso",
+  "private": true,
+
+  "dependencies": {
+    "babel-core": "6.26.0",
+    "react": "16.4.1"
+  },
+  "babel": {
+    "presets": [
+      "react-app"
+    ]
+  }
+}
